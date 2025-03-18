@@ -1,0 +1,155 @@
+header {
+    display: flex;
+    justify-content: space-between; /* Space items apart */
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px; /* Increased padding for more space */
+    height: 100px; /* Increased height */
+    position: relative;
+}
+
+/* Profile image on the left */
+.profile-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px; /* Moves to the left */
+    top: 10px;
+}
+
+/* Name (H1) on the right */
+header h1 {
+    margin: 0;
+    margin-left: auto; /* Pushes the name to the right */
+    padding-right: 20px; /* Adds spacing from the right edge */
+}
+
+/* Centering the navigation */
+header nav {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center; /* Center nav */
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Centers the list */
+    gap: 50px; /* Increases space between items */
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 20px; /* Adds padding to each item */
+}
+
+
+/* Main Content */
+main {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+/* Section Headers */
+h2 {
+    color: #333;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+}
+
+/* Video Gallery */
+.video-gallery {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+video {
+    width: 30%;
+    border-radius: 10px;
+}
+
+/* Contact Form */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.social-links {
+    margin: 10px 0;
+}
+
+.social-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Navigation */
+footer nav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+footer nav ul li {
+    display: inline;
+}
+
+footer nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer nav ul li a:hover {
+    text-decoration: underline;
+}
