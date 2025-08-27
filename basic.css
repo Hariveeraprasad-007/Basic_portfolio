@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+body {
+    line-height: 1.6;
+    background: #f9f9f9;
+    color: #333;
+  }
+  header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 2rem;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  nav .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  nav .nav-links li {
+    margin: 0 10px;
+  }
+  nav .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  nav .nav-links a:hover {
+    color: #00adb5;
+  }
+  .myself {
+    text-align: center;
+    padding: 4rem 2rem;
+    background: #00adb5;
+    color: #fff;
+  }
+  .myself h2 {
+    font-size: 2.5rem;
+  }
+  .hero .Name {
+    color: #ffdd59;
+  }
+  .btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+  .btn:hover {
+    background: #222;
+  }
+  section {
+    padding: 2rem;
+    text-align: center;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  .card {
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: 0.3s;
+  }
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+  }
+  form input, form textarea {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  form button {
+    background: #00adb5;
+    border: none;
+    cursor: pointer;
+  }
+  form button:hover {
+    background: #007d82;
+  }
+  footer {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+  }
